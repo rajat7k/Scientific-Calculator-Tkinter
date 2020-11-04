@@ -61,7 +61,7 @@ def how_to_use():
 
 
 def developers():
-    tmsg.showinfo('Developers', 'Developed by Rajat kaushik and Saket Thenua.')
+    tmsg.showinfo('Developers', 'Developed by Rajat kaushik')
 
 
 my_menu = Menu(root)
