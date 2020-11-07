@@ -61,7 +61,7 @@ def how_to_use():
 
 
 def developers():
-    tmsg.showinfo('Developers', 'Developed by Rajat kaushik')
+    tmsg.showinfo('Developers', 'Developed by Rajat kaushik and Saket Thenua.')
 
 
 my_menu = Menu(root)
@@ -181,75 +181,75 @@ btnsin = Button(f, text='sin', width=6, height=2, font=('arial', 20, 'bold'),
 btnsin.bind('<Button-1>', getvals)
 btnsin.grid(row=2, column=4, pady=1)
 
-btnCos = Button(f, text="cos", width=6, height=2, font=('arial', 20, 'bold'),
+btncos = Button(f, text="cos", width=6, height=2, font=('arial', 20, 'bold'),
                 bd=4, bg="gray")
-btnCos.bind('<Button-1>', getvals)
-btnCos.grid(row=2, column=5, pady=1)
+btncos.bind('<Button-1>', getvals)
+btncos.grid(row=2, column=5, pady=1)
 
-btnTanh = Button(f, text="tan", width=6, height=2, font=('arial', 20, 'bold'),
-                 bd=4, bg="gray")
-btnTanh.bind('<Button-1>', getvals)
-btnTanh.grid(row=2, column=6, pady=1)
-
-btnSinh = Button(f, text="pow", width=6, height=2, font=('arial', 20, 'bold'),
-                 bd=4, bg="gray")
-btnSinh.bind('<Button-1>', getvals)
-btnSinh.grid(row=2, column=7, pady=1)
-
-btnLog = Button(f, text='asinh', width=6, height=2, font=('arial', 20, 'bold'),
+btntan = Button(f, text="tan", width=6, height=2, font=('arial', 20, 'bold'),
                 bd=4, bg="gray")
-btnLog.bind('<Button-1>', getvals)
-btnLog.grid(row=3, column=4, pady=1)
+btntan.bind('<Button-1>', getvals)
+btntan.grid(row=2, column=6, pady=1)
 
-btninv = Button(f, text="acosh", width=6, height=2, font=('arial', 20, 'bold'), bd=4,
-                bg="gray")
-btninv.bind('<Button-1>', getvals)
-btninv.grid(row=3, column=5, pady=1)
-
-btnMod = Button(f, text="atanh", width=6, height=2, font=('arial', 20, 'bold'),
-                bd=4, bg="gray")
-btnMod.bind('<Button-1>', getvals)
-btnMod.grid(row=3, column=6, pady=1)
-
-btnE = Button(f, text="exp", width=6, height=2, font=('arial', 20, 'bold'),
-              bd=4, bg="gray")
-btnE.bind('<Button-1>', getvals)
-btnE.grid(row=3, column=7, pady=1)
-
-btnexp = Button(f, text='abs', width=6, height=2, font=('arial', 20, 'bold'),
-                bd=4, bg="gray")
-btnexp.bind('<Button-1>', getvals)
-btnexp.grid(row=4, column=4, pady=1)
-
-btnDeg = Button(f, text="ceil", width=6, height=2, font=('arial', 20, 'bold'),
-                bd=4, bg="gray")
-btnDeg.bind('<Button-1>', getvals)
-btnDeg.grid(row=4, column=5, pady=1)
-
-btnAcosh = Button(f, text="floor", width=6, height=2, font=('arial', 20, 'bold'),
-                  bd=4, bg="gray")
-btnAcosh.bind('<Button-1>', getvals)
-btnAcosh.grid(row=4, column=6, pady=1)
-
-btnAsinh = Button(f, text="Inv", width=6, height=2, font=('arial', 20, 'bold'),
-                  bd=4, bg="gray")
-btnAsinh.bind('<Button-1>', getvals)
-btnAsinh.grid(row=4, column=7, pady=1)
-
-btnpow = Button(f, text='%', width=6, height=2, font=('arial', 20, 'bold'),
+btnpow = Button(f, text="pow", width=6, height=2, font=('arial', 20, 'bold'),
                 bd=4, bg="gray")
 btnpow.bind('<Button-1>', getvals)
-btnpow.grid(row=5, column=4, pady=1)
+btnpow.grid(row=2, column=7, pady=1)
 
-btnLog1p = Button(f, text="Deg", width=6, height=2, font=('arial', 20, 'bold'),
-                  bd=4, bg="gray", command=degree)
+btnasinh = Button(f, text='asinh', width=6, height=2, font=('arial', 20, 'bold'),
+                  bd=4, bg="gray")
+btnasinh.bind('<Button-1>', getvals)
+btnasinh.grid(row=3, column=4, pady=1)
 
-btnLog1p.grid(row=5, column=5, pady=1)
+btnacosh = Button(f, text="acosh", width=6, height=2, font=('arial', 20, 'bold'), bd=4,
+                  bg="gray")
+btnacosh.bind('<Button-1>', getvals)
+btnacosh.grid(row=3, column=5, pady=1)
 
-btnExpm1 = Button(f, text="Rad", width=6, height=2, font=('arial', 20, 'bold'),
-                  bd=4, bg="gray", command=radian)
+btnatanh = Button(f, text="atanh", width=6, height=2, font=('arial', 20, 'bold'),
+                  bd=4, bg="gray")
+btnatanh.bind('<Button-1>', getvals)
+btnatanh.grid(row=3, column=6, pady=1)
 
-btnExpm1.grid(row=5, column=6, pady=1)
+btnexp = Button(f, text="exp", width=6, height=2, font=('arial', 20, 'bold'),
+                bd=4, bg="gray")
+btnexp.bind('<Button-1>', getvals)
+btnexp.grid(row=3, column=7, pady=1)
+
+btnabs = Button(f, text='abs', width=6, height=2, font=('arial', 20, 'bold'),
+                bd=4, bg="gray")
+btnabs.bind('<Button-1>', getvals)
+btnabs.grid(row=4, column=4, pady=1)
+
+btnceil = Button(f, textceil", width=6, height=2, font=('arial', 20, 'bold'),
+                 bd=4, bg="gray")
+btnceil.bind('<Button-1>', getvals)
+btnceil.grid(row=4, column=5, pady=1)
+
+btnfloor = Button(f, text="floor", width=6, height=2, font=('arial', 20, 'bold'),
+                  bd=4, bg="gray")
+btnfloor.bind('<Button-1>', getvals)
+btnfloor.grid(row=4, column=6, pady=1)
+
+btnInv = Button(f, text="Inv", width=6, height=2, font=('arial', 20, 'bold'),
+                bd=4, bg="gray")
+btnInv.bind('<Button-1>', getvals)
+btnInv.grid(row=4, column=7, pady=1)
+
+btnpercentage = Button(f, text='%', width=6, height=2, font=('arial', 20, 'bold'),
+                       bd=4, bg="gray")
+btnpercentage.bind('<Button-1>', getvals)
+btnpercentage.grid(row=5, colupercentage4, pady=1)
+
+btnDeg = Button(f, text="Deg", width=6, height=2, font=('arial', 20, 'bold'),
+                bd=4, bg="gray", command=degree)
+
+btnDeg.grid(row=5, column=5, pady=1)
+
+btnRad = Button(f, text="Rad", width=6, height=2, font=('arial', 20, 'bold'),
+                bd=4, bg="gray", command=radian)
+
+btnRad.grid(row=5, column=6, pady=1)
 
 
 def Exitcal():
